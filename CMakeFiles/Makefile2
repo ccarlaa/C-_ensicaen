@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/carla/Documents/1/Squelette
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ascii_cat.dir/all
+all: CMakeFiles/ascii_wc.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/ascii_cat.dir/codegen
+codegen: CMakeFiles/ascii_wc.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ascii_cat.dir/clean
+clean: CMakeFiles/ascii_wc.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ascii_cat.dir
+# Target rules for target CMakeFiles/ascii_wc.dir
 
 # All Build rule for target.
-CMakeFiles/ascii_cat.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_cat.dir/build.make CMakeFiles/ascii_cat.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_cat.dir/build.make CMakeFiles/ascii_cat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/carla/Documents/1/Squelette/CMakeFiles --progress-num=1,2 "Built target ascii_cat"
-.PHONY : CMakeFiles/ascii_cat.dir/all
+CMakeFiles/ascii_wc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_wc.dir/build.make CMakeFiles/ascii_wc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_wc.dir/build.make CMakeFiles/ascii_wc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/carla/Documents/1/Squelette/CMakeFiles --progress-num=1,2 "Built target ascii_wc"
+.PHONY : CMakeFiles/ascii_wc.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ascii_cat.dir/rule: cmake_check_build_system
+CMakeFiles/ascii_wc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/carla/Documents/1/Squelette/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ascii_cat.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ascii_wc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/carla/Documents/1/Squelette/CMakeFiles 0
-.PHONY : CMakeFiles/ascii_cat.dir/rule
+.PHONY : CMakeFiles/ascii_wc.dir/rule
 
 # Convenience name for target.
-ascii_cat: CMakeFiles/ascii_cat.dir/rule
-.PHONY : ascii_cat
+ascii_wc: CMakeFiles/ascii_wc.dir/rule
+.PHONY : ascii_wc
 
 # codegen rule for target.
-CMakeFiles/ascii_cat.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_cat.dir/build.make CMakeFiles/ascii_cat.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/carla/Documents/1/Squelette/CMakeFiles --progress-num=1,2 "Finished codegen for target ascii_cat"
-.PHONY : CMakeFiles/ascii_cat.dir/codegen
+CMakeFiles/ascii_wc.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_wc.dir/build.make CMakeFiles/ascii_wc.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/carla/Documents/1/Squelette/CMakeFiles --progress-num=1,2 "Finished codegen for target ascii_wc"
+.PHONY : CMakeFiles/ascii_wc.dir/codegen
 
 # clean rule for target.
-CMakeFiles/ascii_cat.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_cat.dir/build.make CMakeFiles/ascii_cat.dir/clean
-.PHONY : CMakeFiles/ascii_cat.dir/clean
+CMakeFiles/ascii_wc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_wc.dir/build.make CMakeFiles/ascii_wc.dir/clean
+.PHONY : CMakeFiles/ascii_wc.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

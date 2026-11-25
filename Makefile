@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ascii_cat
+# Target rules for targets named ascii_wc
 
 # Build rule for target.
-ascii_cat: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ascii_cat
-.PHONY : ascii_cat
+ascii_wc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ascii_wc
+.PHONY : ascii_wc
 
 # fast build rule for target.
-ascii_cat/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_cat.dir/build.make CMakeFiles/ascii_cat.dir/build
-.PHONY : ascii_cat/fast
+ascii_wc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_wc.dir/build.make CMakeFiles/ascii_wc.dir/build
+.PHONY : ascii_wc/fast
 
-src/ascii_cat.o: src/ascii_cat.cpp.o
-.PHONY : src/ascii_cat.o
+src/ascii_wc.o: src/ascii_wc.cpp.o
+.PHONY : src/ascii_wc.o
 
 # target to build an object file
-src/ascii_cat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_cat.dir/build.make CMakeFiles/ascii_cat.dir/src/ascii_cat.cpp.o
-.PHONY : src/ascii_cat.cpp.o
+src/ascii_wc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_wc.dir/build.make CMakeFiles/ascii_wc.dir/src/ascii_wc.cpp.o
+.PHONY : src/ascii_wc.cpp.o
 
-src/ascii_cat.i: src/ascii_cat.cpp.i
-.PHONY : src/ascii_cat.i
+src/ascii_wc.i: src/ascii_wc.cpp.i
+.PHONY : src/ascii_wc.i
 
 # target to preprocess a source file
-src/ascii_cat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_cat.dir/build.make CMakeFiles/ascii_cat.dir/src/ascii_cat.cpp.i
-.PHONY : src/ascii_cat.cpp.i
+src/ascii_wc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_wc.dir/build.make CMakeFiles/ascii_wc.dir/src/ascii_wc.cpp.i
+.PHONY : src/ascii_wc.cpp.i
 
-src/ascii_cat.s: src/ascii_cat.cpp.s
-.PHONY : src/ascii_cat.s
+src/ascii_wc.s: src/ascii_wc.cpp.s
+.PHONY : src/ascii_wc.s
 
 # target to generate assembly for a file
-src/ascii_cat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_cat.dir/build.make CMakeFiles/ascii_cat.dir/src/ascii_cat.cpp.s
-.PHONY : src/ascii_cat.cpp.s
+src/ascii_wc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_wc.dir/build.make CMakeFiles/ascii_wc.dir/src/ascii_wc.cpp.s
+.PHONY : src/ascii_wc.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ascii_cat"
-	@echo "... src/ascii_cat.o"
-	@echo "... src/ascii_cat.i"
-	@echo "... src/ascii_cat.s"
+	@echo "... ascii_wc"
+	@echo "... src/ascii_wc.o"
+	@echo "... src/ascii_wc.i"
+	@echo "... src/ascii_wc.s"
 .PHONY : help
 
 

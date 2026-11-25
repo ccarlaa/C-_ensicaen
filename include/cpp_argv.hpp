@@ -16,5 +16,7 @@
     std::cerr << "Bad argument number\n";          \
     return EXIT_FAILURE;                           \
   }                                                \
- 
+
+
+
 #endif

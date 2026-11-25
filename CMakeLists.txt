@@ -7,4 +7,6 @@ include_directories(include)
 
 set(EXECUTABLE_OUTPUT_PATH bin/${CMAKE_BUILD_TYPE})
 
-add_executable(ascii_cat src/ascii_cat.cpp)
+# add_executable(ascii_cat src/ascii_cat.cpp)
+
+add_executable(ascii_wc src/ascii_wc.cpp)
