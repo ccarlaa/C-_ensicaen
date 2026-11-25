@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Wextra -march=native -O3 -Wl,--dependency-file=CMakeFiles/ascii_cat.dir/link.d CMakeFiles/ascii_cat.dir/src/ascii_cat.cpp.o -o bin/Release/ascii_cat
