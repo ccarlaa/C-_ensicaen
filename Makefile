@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ascii_diff
+# Target rules for targets named frequencies
 
 # Build rule for target.
-ascii_diff: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ascii_diff
-.PHONY : ascii_diff
+frequencies: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frequencies
+.PHONY : frequencies
 
 # fast build rule for target.
-ascii_diff/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_diff.dir/build.make CMakeFiles/ascii_diff.dir/build
-.PHONY : ascii_diff/fast
+frequencies/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frequencies.dir/build.make CMakeFiles/frequencies.dir/build
+.PHONY : frequencies/fast
 
-src/ascii_diff.o: src/ascii_diff.cpp.o
-.PHONY : src/ascii_diff.o
+src/frequencies.o: src/frequencies.cpp.o
+.PHONY : src/frequencies.o
 
 # target to build an object file
-src/ascii_diff.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_diff.dir/build.make CMakeFiles/ascii_diff.dir/src/ascii_diff.cpp.o
-.PHONY : src/ascii_diff.cpp.o
+src/frequencies.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frequencies.dir/build.make CMakeFiles/frequencies.dir/src/frequencies.cpp.o
+.PHONY : src/frequencies.cpp.o
 
-src/ascii_diff.i: src/ascii_diff.cpp.i
-.PHONY : src/ascii_diff.i
+src/frequencies.i: src/frequencies.cpp.i
+.PHONY : src/frequencies.i
 
 # target to preprocess a source file
-src/ascii_diff.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_diff.dir/build.make CMakeFiles/ascii_diff.dir/src/ascii_diff.cpp.i
-.PHONY : src/ascii_diff.cpp.i
+src/frequencies.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frequencies.dir/build.make CMakeFiles/frequencies.dir/src/frequencies.cpp.i
+.PHONY : src/frequencies.cpp.i
 
-src/ascii_diff.s: src/ascii_diff.cpp.s
-.PHONY : src/ascii_diff.s
+src/frequencies.s: src/frequencies.cpp.s
+.PHONY : src/frequencies.s
 
 # target to generate assembly for a file
-src/ascii_diff.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ascii_diff.dir/build.make CMakeFiles/ascii_diff.dir/src/ascii_diff.cpp.s
-.PHONY : src/ascii_diff.cpp.s
+src/frequencies.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frequencies.dir/build.make CMakeFiles/frequencies.dir/src/frequencies.cpp.s
+.PHONY : src/frequencies.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ascii_diff"
-	@echo "... src/ascii_diff.o"
-	@echo "... src/ascii_diff.i"
-	@echo "... src/ascii_diff.s"
+	@echo "... frequencies"
+	@echo "... src/frequencies.o"
+	@echo "... src/frequencies.i"
+	@echo "... src/frequencies.s"
 .PHONY : help
 
 

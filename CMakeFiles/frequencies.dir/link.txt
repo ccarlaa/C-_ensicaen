@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/frequencies.dir/src/frequencies.cpp.o -o bin/frequencies 

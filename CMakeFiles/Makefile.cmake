@@ -39,5 +39,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ascii_diff.dir/DependInfo.cmake"
+  "CMakeFiles/frequencies.dir/DependInfo.cmake"
   )

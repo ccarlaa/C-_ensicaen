@@ -11,4 +11,6 @@ set(EXECUTABLE_OUTPUT_PATH bin/${CMAKE_BUILD_TYPE})
 
 # add_executable(ascii_wc src/ascii_wc.cpp)
 
-add_executable(ascii_diff src/ascii_diff.cpp)
+# add_executable(ascii_diff src/ascii_diff.cpp)
+
+add_executable(frequencies src/frequencies.cpp)
