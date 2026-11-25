@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ascii_wc.dir/link.d"
-  "CMakeFiles/ascii_wc.dir/src/ascii_wc.cpp.o"
-  "CMakeFiles/ascii_wc.dir/src/ascii_wc.cpp.o.d"
-  "bin/Release/ascii_wc"
-  "bin/Release/ascii_wc.pdb"
+  "CMakeFiles/ascii_wc.dir/src/ascii_diff.cpp.o"
+  "CMakeFiles/ascii_wc.dir/src/ascii_diff.cpp.o.d"
+  "bin/ascii_wc"
+  "bin/ascii_wc.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

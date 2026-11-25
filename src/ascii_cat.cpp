@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
   CPP_ARGV_TEST_HELP_REQUEST(argc, argv[0], DEFAULT_NAME,"ascii_filename");
   
   // Bad argument number.
-  CPP_ARGV_TEST_ARG_NUM(argc);
+  CPP_ARGV_TEST_ARG_NUM(argc, 2);
 
   // Retrieves the filename.
   const char *const filename = argv[1];

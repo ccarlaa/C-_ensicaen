@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wall -Wextra -march=native -O3 -Wl,--dependency-file=CMakeFiles/ascii_wc.dir/link.d CMakeFiles/ascii_wc.dir/src/ascii_wc.cpp.o -o bin/Release/ascii_wc
+/usr/bin/c++ -rdynamic CMakeFiles/ascii_wc.dir/src/ascii_diff.cpp.o -o bin/ascii_wc 

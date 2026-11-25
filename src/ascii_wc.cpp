@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
   CPP_ARGV_TEST_HELP_REQUEST(argc, argv[0], DEFAULT_NAME, "filename");
 
   // Bad argument number (expects executable + 1 filename = 2 arguments).
-  CPP_ARGV_TEST_ARG_NUM(argc);
+  CPP_ARGV_TEST_ARG_NUM(argc,2);
 
   // Retrieves the filename.
   const char *const filename = argv[1];

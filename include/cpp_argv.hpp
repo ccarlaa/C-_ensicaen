@@ -11,8 +11,8 @@
     return EXIT_SUCCESS;                                                     \
   }
 
-#define CPP_ARGV_TEST_ARG_NUM(argc)                \
-  if (argc != 2) {                                 \
+#define CPP_ARGV_TEST_ARG_NUM(argc, arg_number)    \
+  if (argc != arg_number) {                        \
     std::cerr << "Bad argument number\n";          \
     return EXIT_FAILURE;                           \
   }                                                \
