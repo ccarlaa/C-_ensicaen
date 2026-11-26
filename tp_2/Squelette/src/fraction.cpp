@@ -23,7 +23,7 @@ void euclide_gcd(long int& a, long int& b);
 int main(int argc, char *argv[]) {
 
   // Verifica a quantidade de argumentos
-  CPP_ARGV_TEST_HELP_REQUEST(argc, argv[0], DEFAULT_NAME, "fraction.cpp");
+  CPP_ARGV_TEST_HELP_REQUEST(argc, argv[0], DEFAULT_NAME, "num den");
   CPP_ARGV_TEST_ARG_NUM(argc, 3);
 
   char* end; 
@@ -36,12 +36,12 @@ int main(int argc, char *argv[]) {
   // Verifica se o denominador e nulo
   if (b == 0) {
     cerr << "O denominador nao pode ser nulo \n";
-    return 0;
+    return EXIT_FAILURE;
   }
 
   euclide_gcd(a, b);
 
-  return 0;
+  return EXIT_SUCCESS;
 }
 
 void euclide_gcd(long int& a, long int& b)
